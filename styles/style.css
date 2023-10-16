@@ -23,6 +23,12 @@ li{
 button{
     border: none;
 }
+label{
+    margin-right: 2em;
+}
+input{
+    padding: .25em;
+}
 
 /*Selettori*/
 
@@ -46,6 +52,11 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section{
+    margin-top: 150px;
+    width: 100%;
 }
 
 .img-width{
@@ -112,3 +123,24 @@ button{
 .hero-img{
     width: 70%;
 }
+
+.container{
+    width: 50%;
+}
+
+.title{
+    font-size: 2.25em;
+    padding-bottom: 60px;
+}
+
+.plans{
+    width: calc(100% / 3);
+    height: 950px;
+    margin-top: 50px;
+    border: 1px solid lightgray;
+}
+ .plan-type{
+    line-height:40px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+ }
