@@ -8,6 +8,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+   
 }
 
 header{
@@ -17,6 +18,9 @@ header{
     justify-content: space-between;
 }
 
+i{
+    padding-right: 5px;
+}
 li{
     list-style: none;
 }
@@ -32,8 +36,22 @@ input{
 
 /*Selettori*/
 
+
+
 .gray{
     color: gray;
+}
+
+.blue-check{
+    color: #0161FF;
+}
+
+.text-padding{
+    padding: .5em 0px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .start-btn{
@@ -44,7 +62,7 @@ input{
 .blue-btn{
     background-color: #0161FF;
     color: white;
-    padding: 1em;
+    padding: 1em 2.5em;
     margin: 2em 0;
 }
 
@@ -62,7 +80,8 @@ input{
 .img-width{
     width: 100%;
 }
-.fa-solid{
+
+.arrow-icon{
     font-size: 3rem;
     padding-top: 2em;
 }
@@ -133,14 +152,43 @@ input{
     padding-bottom: 60px;
 }
 
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .plans{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 50px);
     height: 950px;
     margin-top: 50px;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
+    
 }
  .plan-type{
     line-height:40px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
     text-align: center;
  }
+
+ .plan-options{
+    padding: 25px 25px;
+ }
+
+ .plan-options h2{
+    font-size: 1.4rem;
+ }
+
+.bold{
+    font-weight: bold;
+ }
+
+ .plan-options div{
+    padding:15px 0px ;
+ }
+
+ .divider{
+    margin: 45px 0px;
+    width: 50px;   
+ }
+
