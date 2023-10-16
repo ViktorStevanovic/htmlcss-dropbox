@@ -185,6 +185,7 @@ input{
 
  .plan-options div{
     padding:15px 0px ;
+
  }
 
  .divider{
@@ -192,3 +193,46 @@ input{
     width: 50px;   
  }
 
+
+ul .text-padding{
+    padding-left: 25px;
+    position: relative;
+}
+
+.text-padding i{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.enterprise{
+    width: 100%;
+    height: 250px;
+    margin: 50px 0px;
+    border: 2px solid lightgray;
+ }
+
+.enterprise-content{
+    padding: 25px 25px;
+    position: relative;
+}
+.enterprise-content button{
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.enterprise-content p:first-of-type{
+    padding-top: 1em;
+    font-size: .75rem;
+}
+
+.enterprise-content p:last-of-type{
+    padding-top: 5em;
+    font-size: .75rem;
+    width: 500px;
+}
+ .enterprise h2 {
+    font-size: 1.3rem;
+
+ }
