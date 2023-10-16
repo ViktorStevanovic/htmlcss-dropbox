@@ -39,16 +39,25 @@ button{
     background-color: #0161FF;
     color: white;
     padding: 1em;
+    margin: 2em 0;
 }
-
-
-
 
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.img-width{
+    width: 100%;
+}
+.fa-solid{
+    font-size: 3rem;
+    padding-top: 2em;
+}
+
+
+
 
 .left-section, .right-section{
     width: calc(100% / 3);
@@ -77,16 +86,29 @@ button{
 .hero-bg{
     background-color: #B4D0E7;
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
 
 .hero{
     width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .main-title{
     font-size: 5rem;
-    padding-bottom: 70px;
+}
+
+.hero-container{
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+}
+
+.hero-description{
+    width: 30%;
+}
+
+.hero-img{
+    width: 70%;
 }
