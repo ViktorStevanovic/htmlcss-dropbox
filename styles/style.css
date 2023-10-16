@@ -7,11 +7,11 @@
 /*Fonts*/
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 header{
     width: 100%;
-    background-color: burlywood;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +20,9 @@ header{
 li{
     list-style: none;
 }
+button{
+    border: none;
+}
 
 /*Selettori*/
 
@@ -27,12 +30,16 @@ li{
     color: gray;
 }
 
-.blue-btn{
-    background-color: blue;
+.start-btn{
+    background-color: #0161FF;
     color: white;
     padding: .3em 1em;
 }
-
+.blue-btn{
+    background-color: #0161FF;
+    color: white;
+    padding: 1em;
+}
 
 
 
@@ -50,17 +57,36 @@ li{
     padding: 1em 0em;
 }
 
-.left-section{
+.left-section .header-list{
     justify-content: flex-start;
+    padding-left: 1em;
 }
 
-.right-section{
+.right-section .header-list{
     justify-content: flex-end;
+    padding-right: 1em;
 }
 
 .header-list{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
     align-items: center;
+}
+
+.hero-bg{
+    background-color: #B4D0E7;
+    width: 100%;
+    height: 700px;
+}
+
+.hero{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.main-title{
+    font-size: 5rem;
+    padding-bottom: 70px;
 }
