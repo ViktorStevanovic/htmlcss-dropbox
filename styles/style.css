@@ -10,7 +10,6 @@ body{
 }
 
 header{
-    height: 100px;
     width: 100%;
     background-color: burlywood;
     display: flex;
@@ -18,9 +17,50 @@ header{
     justify-content: space-between;
 }
 
+li{
+    list-style: none;
+}
+
+/*Selettori*/
+
+.gray{
+    color: gray;
+}
+
+.blue-btn{
+    background-color: blue;
+    color: white;
+    padding: .3em 1em;
+}
+
+
+
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .left-section, .right-section{
     width: calc(100% / 3);
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 1em 0em;
+}
+
+.left-section{
+    justify-content: flex-start;
+}
+
+.right-section{
+    justify-content: flex-end;
+}
+
+.header-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
