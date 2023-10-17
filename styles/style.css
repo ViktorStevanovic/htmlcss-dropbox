@@ -387,3 +387,41 @@ ul .text-padding{
     width: 100%;
 }
 
+.footer-section{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+
+}
+
+li > h2{
+    padding-bottom: 1em;
+}
+
+.nav li{
+    padding-bottom: .5em;
+}
+
+.footer-nav-container{
+    width: 70%;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.language{
+    display: flex;
+}
+
+.language p{
+    padding: 40px 0;
+    border-top: 1px solid white;
+}
+
+.language i {
+    padding: 0 .5em;
+}
