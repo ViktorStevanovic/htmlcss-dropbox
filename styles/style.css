@@ -310,7 +310,6 @@ ul .text-padding{
 
 .side-container, .center-container{
     width: calc(100% / 3);
-    border: 1px solid black;
     height: 500px;
 }
 
@@ -323,10 +322,27 @@ ul .text-padding{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 .members-img{
     width: 50%;
-    color: white;
+    filter: invert(100%) sepia(0%) saturate(1687%) hue-rotate(66deg) brightness(113%) contrast(101%);
+}
+
+.center-container .divider{
+    width: 8rem;
+}
+
+.center-container{
+    padding: 0 4em;
+    background-color: #F5F5F5;
+}
+
+.company-logo{
+    width: 50%;
+    margin-top: 4em;
+}
+
+.company-logo img{
+    width: 100%;
 }
