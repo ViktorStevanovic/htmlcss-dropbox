@@ -346,3 +346,28 @@ ul .text-padding{
 .company-logo img{
     width: 100%;
 }
+
+.get-dropbox-container{
+    width: 100%;
+    background-color: #B4D0E7;
+    padding: 6em 0;
+}
+
+.red-title{
+    width: 50%;
+}
+
+.get-dropbox{
+    width: 50%;
+    text-align: center;
+}
+
+.red-title h1{
+    color: #62092B;
+}
+
+.free-btn{
+    background-color: FFFFFF;
+    padding: .7em 3em;
+    margin: 2em 0;
+}
