@@ -34,17 +34,40 @@ input{
     padding: .25em;
 }
 
-/*Selettori*/
-
-
+/*COLORI*/
 
 .gray{
     color: gray;
 }
-
 .blue-check{
     color: #0161FF;
 }
+.green{
+    background-color: #A2D39B;
+}
+.bordò{
+    background-color: #62092B;
+}
+.sky{
+    background-color: #0093CE;
+}
+.lightred{
+    background-color: #FF1D1C;
+}
+.red{
+    background-color: #D50020;
+}
+.cloud{
+    background-color: #B4D0E7;
+}
+.blue{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
+}
+
+/*Selettori*/
 
 .text-padding{
     padding: .5em 0px;
@@ -144,7 +167,7 @@ input{
 }
 
 .container{
-    width: 50%;
+    width: 60%;
 }
 
 .title{
@@ -234,5 +257,76 @@ ul .text-padding{
 }
  .enterprise h2 {
     font-size: 1.3rem;
-
  }
+
+ .partner-container{
+    display: flex;
+    width: 60%;
+ }
+
+ .partner-img-container{
+    width: 60%;
+ }
+
+ .partner-description{
+    width: 40%;
+    padding: 50px;
+ }
+
+.partner-img{
+    width: 100%;
+}
+
+.secondary-title{
+    padding: 1em 0;
+}
+
+.partner-btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.operation-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    gap: 50px;
+}
+
+.operation{
+    width: calc((100% - 100px) / 3);
+}
+
+.operation-img{
+    width: 100%;
+}
+
+.short{
+    width: 30ch;
+}
+
+.side-container, .center-container{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 500px;
+}
+
+.side-container{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.members-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.members-img{
+    width: 50%;
+    color: white;
+}
