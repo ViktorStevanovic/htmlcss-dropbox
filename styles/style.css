@@ -151,6 +151,36 @@ input{
     align-items: center;
 }
 
+.dropdown{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 10.9rem;
+    width: 600px;
+    border: 2px solid black;
+    top: 3.8rem;
+    background-color: white;
+    display: none;
+    
+}
+
+.dropdown-content-left, .dropdown-content-right{
+    width: 50%;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-section:hover .dropdown{
+    display: flex;
+    z-index: 1;
+}
+
+.dropdown li{
+    padding: 1em 0;
+}
+
 .hero-bg{
     background-color: #B4D0E7;
     width: 100%;
@@ -318,6 +348,14 @@ ul .text-padding{
     border: 1px solid black;
     padding: 1em;
     margin-top: 2em;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.partner-btn:hover{
+    filter: invert(1);
+    border-radius: .5rem;
+    scale: 1.2;
 }
 
 .operation-container{
@@ -404,6 +442,15 @@ ul .text-padding{
     background-color: FFFFFF;
     padding: .7em 3em;
     margin: 2em 0;
+    transition: all .5s;
+}
+
+.free-btn:hover{
+    border-radius: 1rem;
+    scale: 1.5;
+    background-color: #62092B;
+    box-shadow: 0 5px 15px white;
+    color: white;
 }
 
 .common-quest ~ p {
