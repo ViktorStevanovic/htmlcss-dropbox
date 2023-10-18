@@ -2,12 +2,13 @@
 *{
     margin: 0;
     padding:0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 /*Fonts*/
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    min-width: 1515px;
    
 }
 
@@ -230,7 +231,6 @@ ul .text-padding{
 
 .enterprise{
     width: 100%;
-    height: 250px;
     margin: 50px 0px;
     border: 2px solid lightgray;
  }
@@ -309,8 +309,8 @@ ul .text-padding{
 }
 
 .side-container, .center-container{
-    width: calc(100% / 3);
-    height: 500px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3)
 }
 
 .side-container{
@@ -319,6 +319,7 @@ ul .text-padding{
 }
 .members-container{
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,13 +335,14 @@ ul .text-padding{
 }
 
 .center-container{
-    padding: 0 4em;
     background-color: #F5F5F5;
+}
+.company-container{
+    padding: 4em;
 }
 
 .company-logo{
     width: 50%;
-    margin-top: 4em;
 }
 
 .company-logo img{
